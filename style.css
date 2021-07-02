@@ -393,9 +393,16 @@ ion-icon {
     .footer {
         padding-top: 35%;
     }
+    li a{
+        font-size: 18px;
+    }
 
     #icon {
         width: 30%;
+    }
+    #logo {
+        width: 100%;
+        height: 10%;
     }
 
     .details {
@@ -474,6 +481,9 @@ ion-icon {
 
     }
 
+    li a{
+        font-size: 18px;
+    }
     .textTwo {
         width: 500px;
         font-size: 18px;
