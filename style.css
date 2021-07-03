@@ -29,6 +29,8 @@ body {
 /*.footer{*/
 /*  grid-area: ft;*/
 /*}*/
+
+/*Intro section*/
 .image-stack {
     display: grid;
     height: 12%;
@@ -38,6 +40,7 @@ body {
     margin-bottom: 20%;
 }
 
+/*navbar*/
 .nav {
     grid-column: 1;
     grid-row: 1;
@@ -66,11 +69,13 @@ li a {
     color: white;
 }
 
+/*navbar logo*/
 #logo {
     width: 55%;
     height: 6%;
 }
 
+/*background curve*/
 .image-stack__item--bottom {
     grid-column: 1;
     grid-row: 1;
@@ -79,10 +84,11 @@ li a {
     margin-top: 20%;
 }
 
+/*stacked image*/
 .image-stack__item--top {
     grid-row: 1;
     grid-column: 1;
-    z-index: 1;
+    z-index: 1;  /*stack item on top*/
     padding-top: 25%;
 }
 
@@ -96,6 +102,7 @@ img {
     margin: auto;
 }
 
+/*Header text*/
 .headText {
     display: flex;
     font-family: "Raleway";
@@ -129,6 +136,7 @@ img {
     font-weight: 700;
 }
 
+/*hero section with icons and description*/
 .hero {
     display: flex;
     flex-direction: column;
@@ -162,6 +170,7 @@ img {
     line-height: 24px;
 }
 
+/*stay productive section*/
 .banner {
     margin-bottom: 50%;
     margin-left: 20px;
@@ -208,6 +217,7 @@ img {
     color: hsl(176, 68%, 64%);
 }
 
+/*testimonials section*/
 .testimonial {
     width: 100%;
     margin: auto;
@@ -264,12 +274,13 @@ img {
 /*  width: 335px;*/
 /*  top: 552%;*/
 /*}*/
+
+/*Mail section*/
 .mailSection {
-    width: 100%;
+    width: 90%;
     max-width: 600px;
-    margin: 20px auto;
+    margin: 20% auto auto;
     position: relative;
-    bottom: -150px;
     background: hsl(217, 28%, 15%);
     text-align: center;
     padding: 30px;
@@ -302,8 +313,9 @@ input[type="email"] {
     padding: 18px 0;
 }
 
+/*Footer section*/
 .footer {
-    margin-top: -10%;
+    margin-top: -35%;
     padding-left: 5%;
     padding-right: 10%;
     padding-top: 50%;
@@ -389,9 +401,11 @@ ion-icon {
     color: hsl(228, 45%, 44%);
 }
 
+/*Media screen for ipad/tablet/phone desktop mode*/
 @media (min-width: 800px) {
     .footer {
         padding-top: 35%;
+        margin-top: -15%;
     }
     li a{
         font-size: 18px;
@@ -471,6 +485,7 @@ ion-icon {
     }
 }
 
+/*media screen for laptop*/
 @media (min-width: 1440px) {
 
     .headText {
