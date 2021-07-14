@@ -13,6 +13,7 @@ body {
     color: white;
     background-color: hsl(218, 28%, 13%);
     font-weight: 400;
+    min-height : 100vh;
 }
 
 /*.container{*/
